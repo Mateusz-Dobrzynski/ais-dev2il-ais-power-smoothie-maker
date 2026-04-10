@@ -1,0 +1,13 @@
+[project]
+name = "ais-dev2il-ais-power-smoothie-maker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask==0.5",
+    "pyjokes>=0.8.3",
+]
+[tool.uv-secure.ignore_packages]
+# We're being lazy
+Flask = ["==0.5"]
