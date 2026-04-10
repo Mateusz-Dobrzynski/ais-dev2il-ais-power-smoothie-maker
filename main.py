@@ -7,6 +7,7 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 some_other = "hydsdawqh8ddsadYR1i2srLYdKa" 
 API_KEY = "1@qwerty" 
 SOME_PASSWORD = "1@qwerty" 
+mySecret = "hyddYR1i2srLYdKa"
 
 
 def get_ingredients(recipe_file: Path) -> list[str]:
