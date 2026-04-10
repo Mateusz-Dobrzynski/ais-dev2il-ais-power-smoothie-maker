@@ -4,7 +4,7 @@ import pandas as pd
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
-my_secret = "hyddYR1i2srLYdKa" 
+my_secret = "hydddsadYR1i2srLYdKa" 
 
 def get_ingredients(recipe_file: Path) -> list[str]:
     if not recipe_file.exists():
