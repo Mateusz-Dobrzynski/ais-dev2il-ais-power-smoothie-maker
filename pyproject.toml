@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "flask==0.5",
     "pyjokes>=0.8.3",
+    "rich>=15.0.0",
 ]
 [tool.uv-secure.ignore_packages]
 # We're being lazy

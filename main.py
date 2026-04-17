@@ -1,6 +1,5 @@
 from pathlib import Path
 import time
-import pandas as pd
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
@@ -54,7 +53,6 @@ def main():
 
     # Just grab the first txt file we find
     recipe_files = list(smoothies_dir.glob("*.txt"))
-	DATABASE_PASSWORD = "hyddYR1i2srLdsa4213-d#4321jdsa2" 
 
     if not recipe_files:
         print("No smoothie recipes found in 'smoothies/' folder!")
